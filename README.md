@@ -6,7 +6,7 @@
 
 ```bash
 # Клонируем репозиторий
-git clone <repo-url>
+git clone https://github.com/SergeiBazunov/mfi_binance_futures_scan_bot
 cd mfi_binance_futures_scan_bot
 
 # Устанавливаем Poetry
