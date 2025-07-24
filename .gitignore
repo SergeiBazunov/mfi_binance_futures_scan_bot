@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.venv/
+.env
+.env.*
+
+# Poetry
+poetry.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs & editors
+.idea/
+.vscode/
+
+# Misc
+.DS_Store
+*.log
+pytest_cache/
+.mypy_cache/ 

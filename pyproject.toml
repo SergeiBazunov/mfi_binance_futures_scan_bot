@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mfi-binance-futures-scan-bot"
+version = "0.1.0"
+description = "Telegram бот: сканирование USDT-M фьючерсов Binance, сигнал при MFI≤10 на 4h."
+authors = ["Your Name <email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-binance = "^1.0.17"
+pandas = "^2.2.0"
+python-dotenv = "^1.0.1"
+httpx = {extras = ["http2"], version = "^0.27.0"}
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
