@@ -9,8 +9,8 @@
 git clone https://github.com/SergeiBazunov/mfi_binance_futures_scan_bot
 cd mfi_binance_futures_scan_bot
 
-# Устанавливаем Poetry
-pip install poetry
+# Откройте папку проекта
+cd mfi_binance_futures_scan_bot
 
 # Устанавливаем зависимости
 poetry install
